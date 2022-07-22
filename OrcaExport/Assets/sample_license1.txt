@@ -1,0 +1,68 @@
+Geo-Comm, Inc - LICENSOR
+
+End User of Geo-Comm Software – LICENSEE, YOU OR YOUR
+
+
+IMPORTANT: BY ELECTING TO INSTALL THE SOFTWARE OR BY HAVING THE SOFTWARE INSTALLED ON YOUR COMPUTER SYSTEM BY A THIRD PARTY YOU ACKNOWLEDGE THAT YOU HAVE READ THE TERMS OF THIS LICENSE AND AGREE TO BE BOUND BY THIS LICENSE. 
+
+If you are accepting this License on behalf of a firm, organization or other entity, you warrant and represent that you have the authority to do so. If you are not so authorized, you assume sole personal liability for the obligations set out in this License.
+
+This is a License agreement and not an agreement for sale. This software License agreement (“License”) gives you certain limited rights to use the software that is supplied to you on the media with which this License is provided or with which this License has been downloaded or installed by you or on your behalf. All rights not specifically granted in this License are reserved to Licensor.
+
+Reservation of ownership and grant of License
+
+The Software is protected by applicable United States and international laws, treaties and conventions regarding intellectual property or proprietary rights. 
+
+In consideration of the mutual promises and covenants provided herein and for other good and valuable consideration, Reseller hereby grants to Licensee a non-exclusive non-transferable licensed right to use the Software on the terms and conditions of this License.
+
+From the date of receipt of the Software, you shall use your best endeavors to protect the Software from any use, reproduction, exploitation, distribution, or publication not specifically authorized under this License.
+
+Permitted uses
+
+During the term of this License, Licensee may:
+
+	(a) use only the number of copies of the Software for which License fees have been paid to 	Reseller
+
+	(b) install the licensed number of copies of the Software on Licensee’s computer 	storage device(s), computer system(s), or computer network(s) (together “Machine”) 	and may not transfer the Software except for temporary CPU transfer in the event of 	computer malfunction. 
+	
+	(c) make reasonable routine computer backups of the Software but only one (1) copy thereof, and only for archival purposes and during the term of this License.  Any and all copies of the Software and any Software content published in accordance with this License shall continue to be subject to this License. 
+
+Uses not permitted
+
+The Licensee shall not:
+	
+	(a) either directly or indirectly engage in any form of commercial exploitation of the Software.   “Commercial exploitation” for the purposes of this clause means allowing third Parties access to the Software and/or to services provided through use of the Software, or sell, rent, lease, sublicense, lend, assign, time-share, or transfer, in whole or in part, or provide third Parties access to prior or present versions of the Software, or 
+
+	(b) decompile, reverse engineer, or disassemble any part of the Software nor permit any 	third party to do so.  Interface information necessary to achieve interoperability of the Software with independently created computer programs can be provided by Licensor on request and on payment of Licensor's reasonable costs and expenses 	for procuring and supplying such information, or
+
+	(c) copy, make error corrections to or otherwise modify or adapt or translate the Software nor create derivative works based upon the Software nor permit a third Party 	to do so.
+
+		
+Limited warranty  
+
+Reseller warrants that for a period of ninety (90) days from the date of receipt (i) the media upon which the Software is provided will be free from defects in materials and workmanship under normal use and service and that (ii) the unmodified Software will substantially conform with the Technical Documentation.
+
+Should the Software been provided with Licensee provided Data, Licensee acknowledges that such Data is owned by Licensee and the Reseller cannot control the accuracy or completeness of the Data and nor is it able to check the source information of the Data concerned. Accordingly, Reseller shall not be liable for any inaccuracies, faults or omissions in the Data.  
+
+Limited Warranty
+
+To the fullest extent permitted by applicable law, and notwithstanding any other provision of this Agreement, the total liability, in the aggregate, of Reseller and Reseller’s officers, directors, partners, employees and sub-consultants to the Licensee and anyone claiming by or through the Licensee for any and all claims, losses, costs or damages, including attorneys’ fees and costs of any nature whatsoever or expenses resulting from or in any way related to this agreement, including the products delivered by Reseller	hereunder or the use thereof by Licensee, shall not exceed the total compensation received by Reseller in License fees under this Agreement. It is intended that this limitation apply to any and all liability or cause of action however alleged or arising, unless otherwise prohibited by applicable law.  Except as specifically represented herein, the goods and services provided by Reseller pursuant to this agreement are “AS” IS” AND, TO THE EXTENT PERMITTED BYAPPLICABLE LAW, WITHOUT ANY WARRANTY OR CONDITION, EXPRESS, IMPLIED OR STATUTORY, AND RESELLER SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT.  RESELLER DISCLAIMS LIABILITY FOR ERRORS OR OMISSIONS IN CONTENT; ANY IMPLIED WARRANTY ARISING FROM COURSE OF DEALING OR USAGE OF TRADE; AND ANY OBLIGATION, LIABILITY, RIGHT, CLAIM OR REMEDY IN TORT, WHETHER OR NOT ARISING FROM NEGLIGENCE.
+
+
+Intellectual property rights indemnity
+
+Provided always that Licensee shall mitigate such damages, costs and expenses to the fullest extent possible, Licensor shall indemnify Licensee against all damages, costs and expenses arising from or incurred by reason of any actual infringement in the United States of intellectual property rights in consequence of the possession or use in accordance with this License.
+ 
+Indemnity to Licensor by the Licensee
+
+Licensee shall fully indemnify and hold harmless Licensor and Reseller from and against all liabilities, claims, suits or damages (including, but not limited to, legal fees, costs, judgments and reasonable expenses incurred) arising out of any use of the Software by the Licensee not permitted by this License.
+Esri Sublicense Restrictions
+Esri Licensed Material is embedded in Licensor’s core Software products.   The following are license restrictions imposed by Esri:
+
+a)	Customer is prohibited from transferring the embedded OEM license material to any other party.
+
+b)	Customer is prohibited from reverse engineering or disassembling embedded OEM license material.
+
+c)	Esri is not liable for any damages or loss of any kind arising from the Customer’s use of the embedded OEM license material.
+
+        

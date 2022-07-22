@@ -1,0 +1,2 @@
+C:\Users\justi\source\repos\orca_tools\OrcaExport\bin\Release\OrcaExport.msi
+C:\Users\justi\source\repos\orca_tools\OrcaExport\bin\Release\OrcaExport.wixpdb

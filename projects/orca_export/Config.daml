@@ -1,0 +1,42 @@
+﻿<ArcGIS defaultAssembly="orca_export.dll" defaultNamespace="orca_export" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{55f6340d-ec5e-4678-bba4-e77aa291d416}" version="1.0" desktopVersion="2.3.15769">
+    <Name>Orca Export</Name>
+    <Description>Orca Export for ArcGIS Pro</Description>
+    <Image>Images\Transparent3.png</Image>
+    <Author>Processor-GIS, LLC</Author>
+    <Company>Processor-GIS, LLC</Company>
+    <Date>6/19/2019 10:41:18 PM, 2019</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="orca_export_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="orca_arcgis_pro_Tab1" caption="New Tab">
+          <group refID="orca_arcgis_pro_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="Orca" caption="Orca Export" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="orca_export_btn_orca_launch" size="large" separator="true"  />
+          <button refID="orca_export_btn_quick_export" size="large"/>
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="orca_export_btn_quick_export" caption="Quick Export" className="btn_quick_export" loadOnClick="true" smallImage= "Images\export_small.png" largeImage="Images\export_small.png">
+          <tooltip heading="Orca">
+            Export selected layer or table to Excel<disabledText /></tooltip>
+        </button>
+        <button id="orca_export_btn_orca_launch" caption="Main Menu" className="btn_orca_launch" loadOnClick="true" smallImage="Images\Transparent3.png" largeImage="Images\Transparent3.png">
+          <tooltip heading="Orca">Orca Main Menu<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>
