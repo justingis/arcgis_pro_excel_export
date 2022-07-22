@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:powershell="http://schemas.gardiner.net.au/PowerShellWixExtensionSchema">
+  
+  <?define orca_export_TargetDir=$(var.orca_export.TargetDir)?>
+	<Product Id="d8efb6a6-cf50-4d5f-963f-66490d7d5c4b" 
+           Name="Orca Export" 
+           Language="1033" 
+           Version="1.0.0.0" 
+           Manufacturer="Processor-GIS, LLC" 
+           UpgradeCode="912c8852-8ece-48d3-921d-78bc751f07fa">
+    
+		<Package InstallerVersion="200" 
+             Compressed="yes" 
+             InstallScope="perMachine"
+             Platform="x64"
+             Description="This is a description"
+             Comments="These are comments"
+             />
+    
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes" />
+
+    <Icon Id="icon.ico" SourceFile="$(var.orca_export.ProjectDir)\Images\transparent_3_icon.ico"/>
+    <Property Id="ARPPRODUCTICON">icon.ico</Property>
+    <Property Id="ARPURLINFOABOUT">https://www.processor-gis.com</Property>
+    
+    <UIRef Id="WixUI_Minimal"/>
+    <!--<WixVariable Id="WixUIDialogBmp" Value="$(var.ProjectDir)\Assets\Background.bmp"/>
+    <WixVariable Id="WixUIBannerBmp" Value="$(var.ProjectDir)\Assets\Background.bmp"/>-->
+    <WixVariable Id="WixUILicenseRtf" Value="$(var.ProjectDir)\Assets\license.rtf"/>
+
+    <Feature Id="ProductFeature" Title="Orca Export" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+
+  </Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFiles64Folder">
+        <Directory Id="ManufacturerFolder" Name="Orca">
+				<Directory Id="INSTALLFOLDER" Name="OrcaExport" />
+        </Directory>
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+     
+			<Component Id="orca_export.esriAddinX" Guid="1705fe59-36d7-4ece-81de-591883e6593d" Win64="yes">
+			  <File Id="orca_export.esriAddinX" Name="orca_export.esriAddinX" Source="$(var.orca_export_TargetDir)orca_export.esriAddinX" KeyPath="yes"/>
+        <RegistryValue Id="regvaleu" Root="HKLM" Key="SOFTWARE\ESRI\ArcGISPro\Settings\Add-In Folders" Name="C:\Program Files\Orca\OrcaExport\" Value="" Type="string"></RegistryValue>
+			</Component>
+      
+		</ComponentGroup>
+    
+	</Fragment>
+  
+</Wix>

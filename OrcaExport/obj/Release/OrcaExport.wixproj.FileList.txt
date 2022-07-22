@@ -1,0 +1,6 @@
+C:\Users\justi\source\repos\orca_tools\OrcaExport\bin\Release\OrcaExport.msi
+C:\Users\justi\source\repos\orca_tools\OrcaExport\bin\Release\OrcaExport.wixpdb
+obj\Release\Product.wixobj
+obj\Release\OrcaExport.wixproj.BindContentsFileListnull.txt
+obj\Release\OrcaExport.wixproj.BindOutputsFileListnull.txt
+obj\Release\OrcaExport.wixproj.BindBuiltOutputsFileListnull.txt
